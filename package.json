@@ -1,0 +1,55 @@
+{
+  "name": "@nik3iw/typescript-config",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "author": "Nik3iw",
+  "description": "Shareable TypeScript Config",
+  "keywords": [
+    "TypeScript",
+    "Config"
+  ],
+  "homepage": "https://github.com/Nik3iw/typescript-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nik3iw/typescript-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nik3iw/typescript-config/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "tsconfig.base.json",
+    "tsconfig.browser.json",
+    "tsconfig.node.json",
+    "tsconfig.react.json",
+    "tsconfig.solid.json",
+    "tsconfig.vue.json"
+  ],
+  "scripts": {
+    "test": "test",
+    "release": "semantic-release",
+    "release:dry": "semantic-release --dry-run"
+  },
+  "peerDependencies": {
+    "typescript": ">=6.0.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.8",
+    "@semantic-release/npm": "^13.1.5",
+    "@semantic-release/release-notes-generator": "^14.1.1",
+    "@types/node": "^25.9.1",
+    "conventional-changelog-conventionalcommits": "^9.3.1",
+    "prettier": "^3.8.3",
+    "semantic-release": "^25.0.3",
+    "typescript": "~6.0.3"
+  },
+  "packageManager": "yarn@4.16.0"
+}
