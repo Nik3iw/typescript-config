@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    /* Modules */
+    "moduleResolution": "bundler",
+    "types": ["vite/client"],
+    "resolveJsonModule": true,
+
+    /* Emit */
+    "noEmit": true,
+
+    /* Language and Environment */
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "target": "es2023",
+    "lib": ["ES2023", "DOM"]
+  }
+}
