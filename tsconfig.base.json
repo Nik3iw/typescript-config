@@ -1,44 +1,57 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
-    // File Layout
-    // "rootDir": "./src",
-    // "outDir": "./dist",
-
-    // Environment Settings
-    // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
-    "types": [],
-    // For nodejs:
-    // "lib": ["esnext"],
-    // "types": ["node"],
-    // and npm install -D @types/node
-
-    // Other Outputs
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-
-    // Stricter Typechecking Options
+    /* Type Checking */
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
-
-    // Style Options
-    // "noImplicitReturns": true,
-    // "noImplicitOverride": true,
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
-    // "noFallthroughCasesInSwitch": true,
-    // "noPropertyAccessFromIndexSignature": true,
-
-    // Recommended Options
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noPropertyAccessFromIndexSignature": true,
     "strict": true,
-    "jsx": "react-jsx",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+
+    /* Modules */
+    "module": "esnext",
+    "noUncheckedSideEffectImports": true,
+    "allowImportingTsExtensions": true,
+
+    /* Emit */
+
+    /* JavaScript Support */
+
+    /* Editor Support */
+
+    /* Interop Constraints */
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
+    "erasableSyntaxOnly": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Backwards Compatibility */
+
+    /* Language and Environment */
+    "target": "esnext",
+    /* "jsx": "react-jsx", */
     "moduleDetection": "force",
-    "skipLibCheck": true,
+    "libReplacement": false,
+    "useDefineForClassFields": true,
+
+    /* Compiler Diagnostics */
+
+    /* Projects */
+
+    /* Output Formatting */
+
+    /* Completeness */
+    "skipLibCheck": true
+
+    /* Command Line */
+
+    /* Watch Options */
   }
 }
