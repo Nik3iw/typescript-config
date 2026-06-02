@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    /* Modules */
+    "moduleResolution": "bundler",
+    "types": ["vite/client"],
+
+    /* Emit */
+    "noEmit": true,
+
+    /* Language and Environment */
+    "jsx": "react-jsx",
+    "target": "es2023",
+    "lib": ["ES2023", "DOM"]
+  }
+}
