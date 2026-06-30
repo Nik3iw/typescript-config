@@ -2,6 +2,8 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     /* Type Checking */
+    "allowUnreachableCode": false, /* Suggested by Astro.js strictest config */
+    "allowUnusedLabels": false, /* Suggested by Astro.js strictest config */
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "noImplicitReturns": true,
