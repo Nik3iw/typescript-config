@@ -4,7 +4,6 @@
     /* Modules */
     "moduleResolution": "bundler",
     "types": ["vite/client"],
-    "resolveJsonModule": true,
 
     /* Emit */
     "noEmit": true,

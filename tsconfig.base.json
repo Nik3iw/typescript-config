@@ -20,6 +20,7 @@
     "module": "esnext",
     "noUncheckedSideEffectImports": true,
     "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
 
     /* Emit */
 
