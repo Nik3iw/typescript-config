@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/Nik3iw/typescript-config/compare/v1.1.0...v1.1.1) (2026-06-30)
+
+### Bug Fixes
+
+* add astro config file to dist files ([52e44aa](https://github.com/Nik3iw/typescript-config/commit/52e44aaa3019198b56acd2f7cf7a3b2fdd52d0c5))
+
 ## [1.1.0](https://github.com/Nik3iw/typescript-config/compare/v1.0.0...v1.1.0) (2026-06-30)
 
 ### Features
