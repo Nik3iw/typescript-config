@@ -1,3 +1,14 @@
+## [1.1.0](https://github.com/Nik3iw/typescript-config/compare/v1.0.0...v1.1.0) (2026-06-30)
+
+### Features
+
+* add astro.js config ([6438cf0](https://github.com/Nik3iw/typescript-config/commit/6438cf023e668708e1211e30b4e34b64a304f1bb))
+* add astro.js suggested type checking rules ([ccdd618](https://github.com/Nik3iw/typescript-config/commit/ccdd618b5243f3d3d8d6a405bf1b42d39f18569e))
+
+### Bug Fixes
+
+* move resolveJsonModule to base ([502fdda](https://github.com/Nik3iw/typescript-config/commit/502fddad496a3048f35eb30b3fdf6ed9ce5bf1cb))
+
 ## 1.0.0 (2026-06-02)
 
 ### ⚠ BREAKING CHANGES
