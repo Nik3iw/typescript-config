@@ -23,6 +23,7 @@
   },
   "main": "index.js",
   "files": [
+    "tsconfig.astro.json",
     "tsconfig.base.json",
     "tsconfig.browser.json",
     "tsconfig.node.json",
