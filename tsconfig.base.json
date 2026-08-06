@@ -15,6 +15,7 @@
     "strict": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
+    "allowArbitraryExtensions": true, /* Suggested by Vite based projects */
 
     /* Modules */
     "module": "esnext",
