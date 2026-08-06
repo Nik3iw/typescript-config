@@ -5,6 +5,9 @@
     "moduleResolution": "bundler",
 
     /* Emit */
-    "noEmit": true
+    "noEmit": true,
+
+    /* Language and Environment */
+    "jsx": "preserve"
   }
 }
