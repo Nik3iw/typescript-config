@@ -13,6 +13,6 @@
 
     /* Language and Environment */
     "target": "esnext",
-    "lib": ["esnext"]
+    "lib": ["esnext", "ESNext.Collection", "ESNext.Temporal"]
   }
 }
