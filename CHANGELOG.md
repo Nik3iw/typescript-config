@@ -1,3 +1,14 @@
+## [1.2.0](https://github.com/Nik3iw/typescript-config/compare/v1.1.2...v1.2.0) (2026-10-31)
+
+### Features
+
+* upgrade typescript version ([ce634a1](https://github.com/Nik3iw/typescript-config/commit/ce634a1fba37451337affd54785fc3c74674719a))
+
+### Bug Fixes
+
+* downgrade conventional-changelog-conventionalcommits version ([42e5426](https://github.com/Nik3iw/typescript-config/commit/42e5426e9e9882dd14c664883eb83856df5ee99f))
+* explicitly add temporal and collection in node config ([4995d57](https://github.com/Nik3iw/typescript-config/commit/4995d571437472eda829c4fb1dea1fa5ffec79ea))
+
 ## [1.1.2](https://github.com/Nik3iw/typescript-config/compare/v1.1.1...v1.1.2) (2026-08-06)
 
 ## [1.1.1](https://github.com/Nik3iw/typescript-config/compare/v1.1.0...v1.1.1) (2026-06-30)
