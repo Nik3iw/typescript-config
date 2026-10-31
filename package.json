@@ -31,25 +31,28 @@
     "tsconfig.solid.json",
     "tsconfig.vue.json"
   ],
+  "engines": {
+    "node": ">=26.13.0"
+  },
   "scripts": {
     "test": "test",
     "release": "semantic-release",
     "release:dry": "semantic-release --dry-run"
   },
   "peerDependencies": {
-    "typescript": ">=6.0.0"
+    "typescript": ">=7.0.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^7.0.0",
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/git": "^11.0.1",
-    "@semantic-release/github": "^12.0.9",
-    "@semantic-release/npm": "^13.1.5",
+    "@semantic-release/github": "^12.0.10",
+    "@semantic-release/npm": "^13.2.0",
     "@semantic-release/release-notes-generator": "^14.1.1",
-    "@types/node": "^26.1.2",
-    "conventional-changelog-conventionalcommits": "^10.2.1",
-    "prettier": "^3.9.6",
+    "@types/node": "^26.6.6",
+    "conventional-changelog-conventionalcommits": "^10.4.1",
+    "prettier": "^3.9.10",
     "semantic-release": "^25.0.9",
-    "typescript": "~6.0.3"
+    "typescript": "~7.0.2"
   }
 }
